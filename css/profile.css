@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  /* style form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .profile-info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .profile-info-row label {
+    margin-right: 10px;
+  }
+  
+  #upload-btn, #save-changes-btn {
+    padding: 10px;
+    margin: 0 10px;
+  }
+  
+  /* style form inputs and labels */
+  label {
+    margin-bottom: 10px;
+  }
+  input[type="text"], input[type="password"], input[type="email"] {
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+  }
+  input[type="submit"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+  }
+  /* style profile photo upload */
+  .upload-wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .upload-button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+  }
+  .upload-button:hover {
+    background-color: #004080;
+  }
+  .upload-preview {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .upload-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
